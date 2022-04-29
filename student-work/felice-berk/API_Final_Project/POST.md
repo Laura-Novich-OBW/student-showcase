@@ -56,7 +56,7 @@ Beneath the code snippet is a table explaining the components of the POST.
 | pattyType     | string    	| "beef", "Angus" "ground turkey" "black bean" | Choice of different burger types including beef, Angus, ground turkey, black bean. |   
 | pattyQty      	| int       	| 1 or 2                            | The quantity of patties on the burger. Limit of 2. 	|
 | pattyWeightG  	| int       	| 160, 220, 330                         	| This indicates the weight of the patty in grams. The limit is 330 grams.             	|
-| pattyCook     	| string    	| "MR", "M", "MW" , "WD"                | The doneness of the patty. MR-medium rare, M-medium, MW-medium well, WD-well done.                    	|
+| pattyCook     	| string    	| ``MR``, ``M``, ``MW`` , ``WD``                | The doneness of the patty. MR-medium rare, M-medium, MW-medium well, WD-well done.                    	|
 | bunType       	| string    	| "white", "wholeWheat", "glutenFree"               	| Choice of bun types including white, whole wheat, and gluten free.        	|
 | condiment``x`` 	| string    	| "ketchup", "barbecueSauce", "spicyMayo", "none"  	| Choice of up to three condiments. A choice of none means no condiments.              	|
 | topping``x``   	| string    	| "lettuce", "tomato", "onion", "pickles", "none" 	| Choice of up to four toppings. A choice of none means no topping.                 	|
