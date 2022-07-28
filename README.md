@@ -18,7 +18,7 @@ Featured students include:
 * [Michael Felsenthal](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/michael-felsenthal/)
 * [Miriam Rosenberg](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/miriam-rosenberg/)
 * [Orit Itsik](https://github.com/Laura-Novich-OBW/student-showcase/blob/main/student-work/orit-itsik/)
-* [solidoc](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/solidoc)
+* [Solidoc365](https://github.com/Laura-Novich-OBW/student-showcase/tree/main/student-work/solidoc)
 
 Featured Projects include:
 
