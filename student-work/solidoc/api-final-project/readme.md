@@ -42,7 +42,7 @@ Code | Description
       F-->G{Topping?};
       G--Yes-->H[Choose topping];
       H-->J{Another topping?}
-      J--yes-->G;
+      J--yes-->H;
       J--No-->K{Condiment?};
       K--Yes-->L[Choose condiment];
       L-->W{Another condiment?}
