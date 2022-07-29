@@ -9,32 +9,31 @@ The POST request can be printed and given to the kitchen  to obtain payment.
 
 ### Elements
 
-Below are some elements of the POST request and POST response:
-
-
-| Object Name  | Data Type    | Values     | Description  | Default Choice
-| ------------ | ------------- | ---------- | -------------|----------------|
-| mealType     | String   |``lunch``  | Meal type. |
-| mealCat      | String   | |  |
-| main         | String  |``burgerMeal``|Bun, burger, sides, condiments, andve
-| pattyType    | String  | ``beef``, ``lamb``, ``chicken``, ``vegetarian`` | Type of patty. | 
-| pattyQty   	| Integer  | ``1``, ``2``|  Patty quantity. Limit of 2. 
-| pattyWeightG | Integer	| ``250``, ``150``| Patty weight in grams.  	|
-| pattyCook   | String 	| ``R``, ``MR`` , ``M`` , ``MW``  , ``WD``| Cook of patty: rare, medium rare, medium, medium-well, and well-done.|
-| bunType  	| String 	| ``white``, ``wholeWheat``, ``glutenFree``| Choice of bun type.|
-| condiment | String  | ``ketchup``, ``mayo``,``spicy mayo``,``chimichurri``,``BBQsauce``,``hot sauce``	| Choice of up to 3 condiments.        
-| topping  	| String | ``tomato``, ``lettuce``, ``onion``, ``pickles``, ``cheddarCheese``, ``blueCheese``, ``potatoWedges``, ``friedEgg``| Choice of up to 4 toppings. 
-|sides|
-| type  | String  | ``frenchFries``, ``garlicFries``, `onionRings``, `sideSalad``, `coleslaw``, `sideSalad``	| Choice of up to 2 sides.|
-| size 	| String 	| ``regular``, ``large``  	| Size of sides.            	|
-|drink|
-| type   | String    	| ``Coke``, ``SodaWater``, ``Pepsi``,  ``7-Up``, | Choice of drink type. |
-| size  | String    	| ``small``, ``medium``, ``large``  	| Choice of drink size.  	|
-| ice   | Boolean    	| ``yes``, ``no`` 	| Choice of adding ice to the drink.	|
+| Object Name   | Data Type     | Values         | Description    |
+| ------------- | ------------- | -------------- | ------------- |
+| mealType     | String         |``lunch``       | Meal type. | 
+| mealCat      | String         |"..."           |  Description. |
+| main         | String         |``burgerMeal``  | Bun, burger, sides, condiments, and drink.|
+| burger       | String         |``?``           | Description |
+| pattyType    | String         | ``beef``, ``lamb``, ``chicken``, ``vegetarian`` | Type of patty. | 
+| pattyQty     | Integer        | ``1``, ``2``   |  Patty quantity. Limit of 2. 
+| pattyWeightG | Integer      	| ``250``, ``300``| Patty weight, in grams.  	|
+| pattyCook    | String       	| ``R``, ``MR`` , ``M`` , ``MW``  , ``WD``| Cook of patty: rare, medium rare, medium, medium-well, and well-done.|
+| bunType      | String        	| ``white``, ``wholeWheat``, ``glutenFree``| Bun tyoe.|
+| condiment    | String         | ``ketchup``, ``mayo``,``spicy mayo``,``chimichurri``,``BBQsauce``,``hot sauce``	| Limit of 3 condiments.        
+| topping      | String         | ``tomato``, ``lettuce``, ``onion``, ``pickles``, ``cheddarCheese``, ``blueCheese``, ``potatoWedges``, ``friedEgg``| Limit of 4 toppings. 
+| sides        | String         | "..."           | Description|
+| type         | String         | ``frenchFries``, ``garlicFries``, ``onionRings``, ``sideSalad``, ``coleslaw``	| Limit of 2 sides.|
+| size 	       | String        	| ``regular``, ``large`` | Size of sides.            	|
+| drink        | String         |"..."             | Description|
+| type         | String       	| ``Coke``, ``SodaWater``, ``Pepsi``,  ``7-Up``, | Drink type. |
+| size         | String       	| ``small``, ``medium``, ``large``  	| Drink size.  	|
+| ice          | Boolean      	| ``yes``, ``no`` 	| Ice option.	|
 
 
 ### POST Request
 
+The POST request specifies the patron's meal choices.
 
 ``` JSON
   {
@@ -77,10 +76,9 @@ Below are some elements of the POST request and POST response:
   
 ```
 
+### POST Response
 
-
-
-## POST Response 
+The POST response confirms receipt of POST request.
 
 ```HTTP
 200 OK
