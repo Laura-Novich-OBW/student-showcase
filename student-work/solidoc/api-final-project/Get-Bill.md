@@ -8,7 +8,7 @@ The GET response can be printed and given to the patron to obtain payment.
 
 ### Elements
 
-Elements of the GET request and GET response:
+Below are some elements of the GET request and GET response:
 
 | Name      	| Data Type 	| Description                                          |
 |------------	|-----------	|------------------------------------------------------|
@@ -23,13 +23,15 @@ Elements of the GET request and GET response:
 
 ### GET Request
 
+The Get request specifies the table number.
+
 ```none
 HTTP curl -X GET "http://URL/tableNo?id=99"
 ```
 
 ### GET Response
 
-The order number, table number, and costs are included in the GET response. 
+The Get response includes the order number, items, and costs. 
 
 ```json
 {
