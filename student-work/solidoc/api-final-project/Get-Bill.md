@@ -10,7 +10,7 @@ The GET response can be printed and given to the patron to obtain payment.
 
 Below are some elements of the GET request and GET response:
 
-| Name      	| Data Type 	| Description                                          |
+| Object Name      	| Data Type 	| Description                                    |
 |------------	|-----------	|------------------------------------------------------|
 | tableNo    	| Integer      |Table number. Table 99 is reserved for takeout orders.|
 | orderNum   	| Integer      |Takeout order number.                                 |
