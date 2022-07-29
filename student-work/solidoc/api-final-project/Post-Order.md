@@ -5,9 +5,12 @@
 This POST command is used to process the patron's order, and consists of a POST request and a POST response.
 
 The POST request sends the order to the kitchen and the Post response confirms receipt of the request.
-The POST request can be printed and given to the kitchen  to obtain payment.
+
+The POST request can be printed and given to the kitchen staff to prepare the order.
 
 ### Elements
+
+Below are some elements of the POST request and POST response:
 
 | Object Name   | Data Type     | Values         | Description    |
 | ------------- | ------------- | -------------- | ------------- |
@@ -17,10 +20,10 @@ The POST request can be printed and given to the kitchen  to obtain payment.
 | burger       | String         |``?``           | Description |
 | pattyType    | String         | ``beef``, ``lamb``, ``chicken``, ``vegetarian`` | Type of patty. | 
 | pattyQty     | Integer        | ``1``, ``2``   |  Patty quantity. Limit of 2. 
-| pattyWeightG | Integer      	| ``250``, ``300``| Patty weight, in grams.  	|
+| pattyWeightG | Integer      	| ``220``, ``300``| Patty weight, in grams.  	|
 | pattyCook    | String       	| ``R``, ``MR`` , ``M`` , ``MW``  , ``WD``| Cook of patty: rare, medium rare, medium, medium-well, and well-done.|
 | bunType      | String        	| ``white``, ``wholeWheat``, ``glutenFree``| Bun tyoe.|
-| condiment    | String         | ``ketchup``, ``mayo``,``spicy mayo``,``chimichurri``,``BBQsauce``,``hot sauce``	| Limit of 3 condiments.        
+| condiment    | String         | ``ketchup``, ``mayo``,``spicy mayo``,``chimichurri``,``barbequeSauce``,``hot sauce``	| Limit of 3 condiments.        
 | topping      | String         | ``tomato``, ``lettuce``, ``onion``, ``pickles``, ``cheddarCheese``, ``blueCheese``, ``potatoWedges``, ``friedEgg``| Limit of 4 toppings. 
 | sides        | String         | "..."           | Description|
 | type         | String         | ``frenchFries``, ``garlicFries``, ``onionRings``, ``sideSalad``, ``coleslaw``	| Limit of 2 sides.|
