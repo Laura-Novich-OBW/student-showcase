@@ -4,8 +4,8 @@
 
 The General Putnam Motel Diner API POC illustrates two of many basic functions required for the Diner's operations:
 
-* Takeout Order placement
-* Bill Processing
+* Takeout order placement
+* Bill processing
 
 The API POC will allow patrons to place a takeout order and get the bill. 
 
