@@ -2,32 +2,34 @@
 
 ## GET/tableNo
 
-This Get request is used to get the bill and includes the table number. 
-The order number is included in the response. Take out orders are table 99. 
-When this is printed, the customer can pay the bill. 
+This GET command is used to process the bill, and consists of a GET request and a GET response. 
+
+The GET response can be printed and given to the patron to obtain payment. 
 
 ### Elements
 
-Elements of the GET Request:
+Elements of the GET request and GET response:
 
-| Name      	| Data Type 	| Description                                        	|
-|------------	|-----------	|---------------------------------------------------	|
-| orderNum   	| Int         |Takeout order number                                 |
-| tableNo   	| Int         | Table number for takeout orders                     |
-| orderNum   	| Int         | Indicates what the specific order number is.        |
-| timestamp  	| Timestamp 	| Date and time of order.                             |
-| item        | String    	| Item in order                                       |
-| type        | String      | Meal type                                           |
-| cost        | Float       | Cost of item                                        |                                                                  
+| Name      	| Data Type 	| Description                                          |
+|------------	|-----------	|------------------------------------------------------|
+| tableNo    	| Integer      |Table number. Table 99 is reserved for takeout orders.|
+| orderNum   	| Integer      |Takeout order number.                                 |
+| timestamp  	| Timestamp   	| Date and time of order.                              |
+| Item1	      | String   	   | First order item.                                    |
+| ItemOrdered  | String     	| Item ordered.                                        |
+| type         | String       | Meal type.                                           |
+| Cost         | Float        | Cost of item.                                        |                                                                  
+| Item2	      | String     	| Second order item.                                   |
 
-
-### Request
+### GET Request
 
 ```none
 HTTP curl -X GET "http://URL/tableNo?id=99"
 ```
 
-### Response
+### GET Response
+
+The order number, table number, and costs are included in the GET response. 
 
 ```json
 {
