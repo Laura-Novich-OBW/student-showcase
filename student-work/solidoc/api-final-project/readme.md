@@ -65,8 +65,9 @@ Code | Description
 ```
 
 ## References 
-[The Good Docs Project](https://github.com/thegooddocsproject/templates)
+
+[Laura Novich, Instructor Extraordinaire at OBW](https://github.com/Laura-Novich-OBW)
 
 [Mermaid Live Editor](http://mermaid-js.github.io/mermaid/)
 
-[Laura Novich, Instructor Extraordinaire at OBW](https://github.com/Laura-Novich-OBW)
+[The Good Docs Project](https://github.com/thegooddocsproject/templates)
