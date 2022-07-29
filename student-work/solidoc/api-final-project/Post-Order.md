@@ -1,41 +1,87 @@
-# Endpoint name
+# Post Order Documentation
 
-Method | syntax
------ | ----------
-GET | base_url/endpoint/etc.
+## POST/lunch 
 
-<!-- Delete this comment after you have replaced the method and syntax above. -->
+This POST command is used to process the patron's order, and consists of a POST request and a POST response.
 
-## Description
+The POST request sends the order to the kitchen and the Post response confirms receipt of the request.
+The POST request can be printed and given to the kitchen  to obtain payment.
 
-<!-- Enter a short description. What is it for, and what can it do? -->
+### Elements
 
-Parameters
+Below are some elements of the POST request and POST response:
 
-Name | type | Req. | Description
----- | ----- | ----- | --------------------
-Parameter_one | string | Y |  Stores the customer name
-Parameter_two | int  | N | Stores a postal code, like the U.S. ZIP code.
 
-<!-- Replace the two example rows and include rows for all your parameters. -->
-<!-- If one of the parameters has a set of sub-parameters, create a table or bulleted list for that, but proceed with caution. If the API is complex, there might be an easier way to do your reference section than writing markup by hand. -->
+| Object Name  | Data Type    | Values     | Description  | Default Choice
+| ------------ | ------------- | ---------- | -------------|----------------|
+| mealType     | String   |``lunch``  | Meal type. |
+| mealCat      | String   | |  |
+| main         | String  |``burgerMeal``|Bun, burger, sides, condiments, andve
+| pattyType    | String  | ``beef``, ``lamb``, ``chicken``, ``vegetarian`` | Type of patty. | 
+| pattyQty   	| Integer  | ``1``, ``2``|  Patty quantity. Limit of 2. 
+| pattyWeightG | Integer	| ``250``, ``150``| Patty weight in grams.  	|
+| pattyCook   | String 	| ``R``, ``MR`` , ``M`` , ``MW``  , ``WD``| Cook of patty: rare, medium rare, medium, medium-well, and well-done.|
+| bunType  	| String 	| ``white``, ``wholeWheat``, ``glutenFree``| Choice of bun type.|
+| condiment | String  | ``ketchup``, ``mayo``,``spicy mayo``,``chimichurri``,``BBQsauce``,``hot sauce``	| Choice of up to 3 condiments.        
+| topping  	| String | ``tomato``, ``lettuce``, ``onion``, ``pickles``, ``cheddarCheese``, ``blueCheese``, ``potatoWedges``, ``friedEgg``| Choice of up to 4 toppings. 
+|sides|
+| type  | String  | ``frenchFries``, ``garlicFries``, `onionRings``, `sideSalad``, `coleslaw``, `sideSalad``	| Choice of up to 2 sides.|
+| size 	| String 	| ``regular``, ``large``  	| Size of sides.            	|
+|drink|
+| type   | String    	| ``Coke``, ``SodaWater``, ``Pepsi``,  ``7-Up``, | Choice of drink type. |
+| size  | String    	| ``small``, ``medium``, ``large``  	| Choice of drink size.  	|
+| ice   | Boolean    	| ``yes``, ``no`` 	| Choice of adding ice to the drink.	|
 
-## Examples
 
-### Request
+### POST Request
 
-```HTTP
-<!--  A copy-and-paste working request, if possible. Not one with values replaced by their names, such as "ID." -->
 
+``` JSON
+  {
+     "mealType":"lunch",
+     "mealCat":{
+  	  "main":"burgerMeal",
+  	  "burger":{
+        "pattyType":"”beef”",
+        "pattyQty":1,
+     	  "pattyWeightG":220,
+     	  "pattyCook":"MR",
+     	  "bunType":"wholeWheat",
+     	  "condiment1":"ketchup",
+     	  "condiment2":"barbecueSauce",
+          "condiment3":"spicyMayo",
+          "condiment4":"none",
+     	  "topping1":"lettuce",
+          "topping2":"tomato",
+     	  "topping3":"onion",
+          "topping4":"pickles",
+     	  "topping5":"None"
+  	  },
+  	  "sides":{
+     	  "side1":{
+        	  "type":"frenchFries",
+        	  "size":"large"
+     	  },
+     	  "side2":{
+        	  "type":"none",
+        	  "size":""
+     	  }
+  	  },
+  	  "drink":{
+     	  "type":"Coke",
+     	  "size":"large",
+     	  "ice":"yes"
+  	  },
+     },
+  }
+  
 ```
 
-<!-- Follow with comments to explain what each part of the request is doing -->
 
-### Response
+
+
+## POST Response 
 
 ```HTTP
-<!--  An actual response returned by this endpoint for the request above.  -->
-
+200 OK
 ```
-
-<!-- Write a comment explaining the response, if it would be helpful. For a response with a complicated schema, create a table like the one used above for the request.  -->
