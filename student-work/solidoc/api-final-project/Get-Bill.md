@@ -51,5 +51,3 @@ The Get response includes the order number, items, and costs.
    }
 }
 ```
-
-
