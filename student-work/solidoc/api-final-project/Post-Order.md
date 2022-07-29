@@ -6,7 +6,7 @@ This POST command is used to process the patron's order, and consists of a POST 
 
 The POST request sends the order to the kitchen and the Post response confirms receipt of the request.
 
-The POST request can be printed and given to the kitchen staff to prepare the order.
+The POST request can be printed and given to the kitchen staff.
 
 ### Elements
 
