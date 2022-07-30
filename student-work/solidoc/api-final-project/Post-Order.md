@@ -18,7 +18,7 @@ Below are some elements of the POST request and POST response:
 | mealCat      | String         |                |  Meal category. |
 | main         | String         |``burgerMeal``  | Bun, burger, sides, condiments, and drink.|
 | burger       | String         |                | Burger portion of ``burgerMeal``. |
-| pattyType    | String         | ``beef``, ``lamb``, ``chicken``, ``vegetarian`` | Type of patty. | ``beef``|
+| pattyType    | String         | ``beef``, ``lamb``, ``chicken``, ``pulledBeef``,``vegetarian``, ``veganLentil`` | Type of patty. | ``beef``|
 | pattyQty     | Integer        | ``1``, ``2``   |  Patty quantity, l limit of 2. | ``1``|
 | pattyWeightG | Integer      	| ``220``, ``300``| Patty weight, in grams. | ``220``|
 | pattyCook    | String       	| ``R``, ``MR`` , ``M`` , ``MW``  , ``WD``| Cook of patty: rare, medium rare, medium, medium-well, and well-done.|``M``|
@@ -26,7 +26,7 @@ Below are some elements of the POST request and POST response:
 | condiment    | String         | ``ketchup``, ``mayo``,``spicy mayo``,``chimichurri``,``barbequeSauce``,``hot sauce``, ``none``	| Condiments, limit of 3. | ``none``|      
 | topping      | String         | ``lettuce``, ``tomato``, ``onion``, ``pickles``, ``cheddarCheese``, ``blueCheese``, ``potatoWedges``, ``friedEgg``, ``none``| Toppings, limit of 4. |``none``|
 | sides        | String         |                     | Side(s) portion of ``burgerMeal``.|
-| type         | String         | ``frenchFries``, ``garlicFries``, ``onionRings``, ``sideSalad``, ``coleslaw``, ``none``	| Sides, limit of 2.| ``none``|
+| type         | String         | ``frenchFries``, ``garlicFries``, ``onionRings``,``potatoWedges``, ``sideSalad``, ``coleslaw``, ``none``	| Sides, limit of 2.| ``none``|
 | size 	       | String        	| ``small``, ``medium``, ``large`` | Size of sides.     |   ``medium``|
 | drink        | String         |                     | Drink portion of ``burgerMeal``.|
 | type         | String       	| ``Coke``, ``SodaWater``, ``Pepsi``,  ``7-Up``, ``none``| Drink type. | ``none``|
