@@ -57,7 +57,9 @@ Code | Description
       M--No-->Q{Drink?};
       Q--Yes-->R[Choose drink];
       Q--No-->V;
-      R-->S[Choose drink size];
+      R---Y{Is drink seltzer or beer?};
+      Y--no-->S[Choose drink size];
+      Y--yes-->V;
       S-->T{Ice?}
       T--yes-->U[ice];
       U-->V;        
