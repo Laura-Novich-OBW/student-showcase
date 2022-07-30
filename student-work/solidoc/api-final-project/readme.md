@@ -15,8 +15,8 @@ The API may be further developed to include features such digital orders for in-
 
 For details, refer to:
 
-- [Takeout Order Documentation](https://github.com/solidoc365/student-showcase/blob/main/student-work/solidoc/api-final-project/Post-Order)
-- [Bill Documentation](https://github.com/solidoc365/student-showcase/blob/main/student-work/solidoc/api-final-project/Get-Bill)
+- [Takeout Order Documentation](https://github.com/solidoc365/student-showcase/blob/main/student-work/solidoc/api-final-project/Post-Order.md)
+- [Bill Documentation](https://github.com/solidoc365/student-showcase/blob/main/student-work/solidoc/api-final-project/Get-Bill.md)
 
 ## General Response Codes
 
