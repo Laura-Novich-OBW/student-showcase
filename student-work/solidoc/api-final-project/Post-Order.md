@@ -12,24 +12,24 @@ The POST request can be printed and given to the kitchen staff.
 
 Below are some elements of the POST request and POST response:
 
-| Object Name   | Data Type     | Values         | Description    | Default Value  |
+| Object Name   | Data Type     | Value         | Description    | Default Value  |
 | ------------- | ------------- | -------------- | ------------- | ----------------|
 | mealType     | String         |``lunch``       | Meal type. | 
 | mealCat      | String         |                |  Meal category. |
 | main         | String         |``burgerMeal``  | Bun, burger, sides, condiments, and drink.|
 | burger       | String         |                | Burger portion of ``burgerMeal``. |
 | pattyType    | String         | ``beef``, ``lamb``, ``chicken``, ``pulledBeef``,``vegetarian``, ``veganLentil`` | Type of patty. | ``beef``|
-| pattyQty     | Integer        | ``1``, ``2``   |  Patty quantity, l limit of 2. | ``1``|
+| pattyQty     | Integer        | ``1``, ``2``   |  Patty quantity, limit of 2. | ``1``|
 | pattyWeightG | Integer      	| ``220``, ``300``| Patty weight, in grams. | ``220``|
 | pattyCook    | String       	| ``R``, ``MR`` , ``M`` , ``MW``  , ``WD``| Cook of patty: rare, medium rare, medium, medium-well, and well-done.|``M``|
 | bunType      | String        	| ``white``, ``wholeWheat``, ``glutenFree``, ``multiGrain``| Bun type.| ``white``|
 | condiment    | String         | ``ketchup``, ``mayo``,``spicy mayo``,``chimichurri``,``barbequeSauce``,``hot sauce``, ``none``	| Condiments, limit of 3. | ``none``|      
-| topping      | String         | ``lettuce``, ``tomato``, ``onion``, ``pickles``, ``cheddarCheese``, ``blueCheese``, ``potatoWedges``, ``friedEgg``, ``none``| Toppings, limit of 4. |``none``|
+| topping      | String         | ``lettuce``, ``tomato``, ``onion``, ``pickles``, ``cheddarCheese``, ``blueCheese``,``goatCheese``, ``friedOnions``, ``friedEgg``, ``none``| Toppings, limit of 4. |``none``|
 | sides        | String         |                     | Side(s) portion of ``burgerMeal``.|
-| type         | String         | ``frenchFries``, ``garlicFries``, ``onionRings``,``potatoWedges``, ``sideSalad``, ``coleslaw``, ``none``	| Sides, limit of 2.| ``none``|
+| type         | String         | ``frenchFries``, ``garlicFries``, ``onionRings``,``potatoWedges``,``sideSalad``, ``coleslaw``, ``none``	| Sides, limit of 2.| ``none``|
 | size 	       | String        	| ``small``, ``medium``, ``large`` | Size of sides.     |   ``medium``|
 | drink        | String         |                     | Drink portion of ``burgerMeal``.|
-| type         | String       	| ``Coke``, ``SodaWater``, ``Pepsi``,  ``7-Up``, ``none``| Drink type. | ``none``|
+| type         | String       	| ``Coke``, ``seltzerWater``, ``beer``, ``Pepsi``,  ``7-Up``, ``none``| Drink type. | ``none``|
 | size         | String       	| ``small``, ``medium``, ``large``  	| Drink size.  	| ``medium``|
 | ice          | Boolean      	| ``yes``, ``no`` 	| Ice option.	| ``no``
 
