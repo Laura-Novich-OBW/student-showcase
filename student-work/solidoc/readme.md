@@ -1,2 +1,11 @@
-# Hello! My name is Solidoc365.
-Here's an introduction to the services I provide.
+# Solidoc - Innovative Language Solutions
+
+Welcome to our page, and here's a brief introduction to the services we provide.
+
+## Editing
+
+## Content Writing
+
+## Technical Writing
+
+
