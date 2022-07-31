@@ -29,7 +29,7 @@ Below are some elements of the POST request and POST response:
 | type         | String         | ``frenchFries``, ``garlicFries``, ``onionRings``,``potatoWedges``,``sideSalad``, ``coleslaw``, ``none``	| Sides, limit of 2.| ``none``|
 | size 	       | String        	| ``small``, ``medium``, ``large`` | Size of sides.     |   ``medium``|
 | drink        | String         |                     | Drink portion of ``burgerMeal``.|
-| type         | String       	| ``Coke``, ``seltzerWater``, ``beer``, ``Pepsi``,  ``7-Up``, ``none``| Drink type. | ``none``|
+| type         | String       	| ``Coke``, ``seltzer``, ``beer``, ``Pepsi``,  ``7-Up``, ``none``| Drink type. | ``none``|
 | size         | String       	| ``small``, ``medium``, ``large``  	| Drink size.  	| ``medium``|
 | ice          | Boolean      	| ``yes``, ``no`` 	| Ice option.	| ``no``
 
