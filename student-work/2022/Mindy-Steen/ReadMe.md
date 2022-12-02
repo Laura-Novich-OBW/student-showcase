@@ -4,7 +4,7 @@
 Self-directed, collaborative, and energetic Technical Communicator with solid understanding of the way enterprise, B2B SaaS businesses operate. Self disciplined focused, results-driven individual who stays current with industry changes through networking and ongoing professional development. Highly motivated to contribute to your documentation team and to create content that customers love. 
 
 ## Contact ##
-[LinkedIn](https://www.linkedin.com/in/mindysteen360/) | [Email](mindys360@gmail.com) 
+[LinkedIn](https://www.linkedin.com/in/mindysteen360/) | [Email](mailto:mindys360@gmail.com) 
 
 ## Skills ##
 Github l Markdown l HTML l CSS l Wix l Microsoft Office
