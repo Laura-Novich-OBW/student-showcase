@@ -6,7 +6,7 @@ Phone: 053-3981633
 [My Portfolio](https://wix.to/k4BMsS6?)  
 ____________________  
 ## About Me ##  
-I currently work as a technical writer with a premier software company. I have a history as an accomplished instructor with exemplary research, problem solving, editing, and technical skills. Throughout my career, I have excelled at simplifying complex concepts and designing processes to support effective student interventions. I have an innate curiosity for technology and how things operate. I consistently seek to use my excellent communication skills to create successful technical communication.  
+I currently work as a technical writer with a premier software company. I am an accomplished instructor with exemplary research, problem solving, editing, and technical skills. Throughout my career, I have excelled at simplifying complex concepts and designing processes to support effective student interventions. I have an innate curiosity for technology and how things operate. I consistently seek to use my excellent communication skills to create successful technical communication.  
 ____________________  
 ## Skills ##  
 
