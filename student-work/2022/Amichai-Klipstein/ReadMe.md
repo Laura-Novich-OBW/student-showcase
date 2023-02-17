@@ -44,7 +44,7 @@ Technical Communicator and Content Writer
 - Position: Tank Gunner Merkava Mk. IV  
 
 # Skills
-- **Writing Skills:** Release Notes, DITA, API Documentation, User Story Development, Knowledge Base, Blogs, Press Releases, Social Media, Content
+- **Writing Skills:** Release Notes, DITA, [API Documentation](./student-showcase/student-work/2022/Amichai-Klipstein/api-final-project), User Story Development, Knowledge Base, Blogs, Press Releases, Social Media, Content
 - **Soft Skills:** Teamwork, Creativity, Time Management
 - **Languages:** Hebrew (native), English (native)
 - **Computer Skills** MadCap Flare, Trello, Wix, WordPress, GitHub
