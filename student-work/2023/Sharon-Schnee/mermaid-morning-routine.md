@@ -4,21 +4,17 @@
    flowchart TD
    A((Alarm rings))-->B{Is it time to get up?};
    B--No-->C[Hit snooze];
-   B--Probably-->C[Hit snooze];
+   B--Maybe-->C[Hit snooze];
    B--Yes-->D[Get up];
    C==>A;
    D-->E[Wash up];
    E-->F[Get dressed];
-   F-->G[Help get ready and send to school];
-   G-->H{How tired am I?};
-   H--Very tired-->I[Return to bed];
-   I-->J[Set alarm];
-   J-->A;
-   H--Not so tired-->K{Have some time?};
-   K--Yes-->L[Exercise];
-   L-->M[Shower];
-   M-->N[Get ready for work];
-   K--No-->N;
-   N-->O[Make coffee];
-   O-->P[Get to work]
+   F-->G[Help daughter get ready and send to school];
+   G-->H{Have some time?};
+   H--Yes-->N[Exercise];
+   N-->O[Shower];
+   O-->P[Get ready for work];
+   H--No-->P;
+   P-->Q[Make coffee];
+   Q-->R[Get to work]
 ```
